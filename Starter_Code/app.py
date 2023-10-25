@@ -1,3 +1,5 @@
+#Tutor David Chao assisted with the development of the syntax and logic for this flask app
+
 # Import the dependencies.
 from flask import Flask, jsonify
 import sqlalchemy
