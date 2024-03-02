@@ -58,7 +58,7 @@ I performed a station analysis by completing the steps:
 
 5. Closed my session.
 
-## Part 2: Design Your Climate App
+## Part 2: Climate App Using Flask
 After I completed my climate analysis in jupyter, I designed a Flask API based on the queries that I just developed above. To do so, I used Flask to create my routes as follows:
 
 **Route 1:** /
