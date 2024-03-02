@@ -6,8 +6,8 @@ For this challenge, I decided to treat myself to a long holiday vacation in Hono
 ## Part 1: Analyzing and Exploring the Climate Data
 In this section, I used Python and SQLAlchemy to do a basic climate analysis and data exploration of my climate database. Specifically, I utilized SQLAlchemy Object Relational Mapper queries, Pandas, and Matplotlib. I used the provided hawaii.sqlite database to store the data and climate-analysis.ipynb to complete my climate analysis. Using these files, I completed the following steps:
 
-1. Used the SQLAlchemy create_engine() function to connect to your SQLite database.
-2. Used the SQLAlchemy automap_base() function to reflect your tables into classes, and then saved references to the classes named station and measurement.
+1. Used the SQLAlchemy create_engine() function to connect to my SQLite database.
+2. Used the SQLAlchemy automap_base() function to reflect my tables into classes, and then saved references to the classes named station and measurement.
 3. Linked Python to the database by creating a SQLAlchemy session.
 
 ![image](https://github.com/nicholaishaw/sqlalchemy-challenge/assets/135463220/302073f6-d121-498b-a13f-bab8bb0031e7)
@@ -66,8 +66,8 @@ After I completed my climate analysis in jupyter, I designed a Flask API based o
 * Lists all the available routes.
 
 **Route 2:** /api/v1.0/precipitation
-* Converts the query results from your precipitation analysis (i.e. retrieve only the last 12 months of data) to a dictionary using date as the key and prcp as the value.
-* Returns the JSON representation of your dictionary.
+* Converts the query results from my precipitation analysis (i.e. retrieve only the last 12 months of data) to a dictionary using date as the key and prcp as the value.
+* Returns the JSON representation of my dictionary.
     
 **Route 3:** /api/v1.0/stations
 * Returns a JSON list of stations from the dataset.
