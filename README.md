@@ -14,7 +14,7 @@ In this section, I used Python and SQLAlchemy to do a basic climate analysis and
 
 **Figure 1.** *Importing dependencies, creating the engine, reflecting the tables, creating a session, and saving the measurement and station information into variables*
 
-### Precipitation Analysis
+## Precipitation Analysis
 I performed a precipitation analysis by completing the steps.
 
 1. Found the most recent date in the dataset.
@@ -34,7 +34,7 @@ I performed a precipitation analysis by completing the steps.
 
 **Figure 2.** *Summary statistics of precipitation data.*
 
-### Station Analysis
+## Station Analysis
 I performed a station analysis by completing the steps:
 
 1. Designed a query to calculate the total number of stations in the dataset.
