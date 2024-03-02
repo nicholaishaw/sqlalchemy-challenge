@@ -1,26 +1,24 @@
-# sqlalchemy-challenge
-Module 10 Challenge
+# Data Analysis Using SQLAlchemy
 
-Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii. To help with your trip planning, you decide to do a climate analysis about the area. The following sections outline the steps that you need to take to accomplish this task.
+## Background
+For this challenge, I decided to treat myself to a long holiday vacation in Honolulu, Hawaii. To help with my trip planning, I decided to do a climate analysis about the area. The following sections outline the steps that I need to take to accomplish this task.
 
-Part 1: Analyze and Explore the Climate Data
-In this section, you’ll use Python and SQLAlchemy to do a basic climate analysis and data exploration of your climate database. Specifically, you’ll use SQLAlchemy ORM queries, Pandas, and Matplotlib. To do so, complete the following steps:
+## Part 1: Analyze and Explore the Climate Data
+In this section, I used Python and SQLAlchemy to do a basic climate analysis and data exploration of my climate database. Specifically, I utilized SQLAlchemy Object Relational Mapper queries, Pandas, and Matplotlib. I used the provided hawaii.sqlite database to store the data and climate-analysis.ipynb to complete my climate analysis. Using these files, I completed the following steps:
 
-Note that you’ll use the provided files (climate_starter.ipynb and hawaii.sqlite) to complete your climate analysis and data exploration.
+1. Used the SQLAlchemy create_engine() function to connect to your SQLite database.
+2. Used the SQLAlchemy automap_base() function to reflect your tables into classes, and then saved references to the classes named station and measurement.
+3. Linked Python to the database by creating a SQLAlchemy session.
 
-Use the SQLAlchemy create_engine() function to connect to your SQLite database.
+![image](https://github.com/nicholaishaw/sqlalchemy-challenge/assets/135463220/302073f6-d121-498b-a13f-bab8bb0031e7)
 
-Use the SQLAlchemy automap_base() function to reflect your tables into classes, and then save references to the classes named station and measurement.
+**Figure 1.** *Importing dependencies, creating the engine, reflecting the tables, creating a session, and saving the measurement and station information into variables*
 
-Link Python to the database by creating a SQLAlchemy session.
 
-IMPORTANT
-Remember to close your session at the end of your notebook.
+### Precipitation Analysis
+I performed a precipitation analysis and then a station analysis by completing the steps in the following two subsections.
 
-Perform a precipitation analysis and then a station analysis by completing the steps in the following two subsections.
-
-Precipitation Analysis
-Find the most recent date in the dataset.
+1. Find the most recent date in the dataset.
 
 Using that date, get the previous 12 months of precipitation data by querying the previous 12 months of data.
 
