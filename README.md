@@ -33,7 +33,7 @@ I performed a precipitation analysis by completing the steps.
 
 ![image](https://github.com/nicholaishaw/sqlalchemy-challenge/assets/135463220/8dbc4946-6c16-4e0c-9f65-693c97de88c2)
 
-**Figure 2.** *Bar graph of montly precipitation data.*
+**Figure 2.** *Summary statistics of precipitation data.*
 
 ### Station Analysis
 I performed a station analysis by completing the steps:
