@@ -66,7 +66,7 @@ After I completed my climate analysis in jupyter, I designed a Flask API based o
 * Lists all the available routes.
 
 **Route 2:** /api/v1.0/precipitation
-* Converts the query results from my precipitation analysis (i.e. retrieve only the last 12 months of data) to a dictionary using date as the key and prcp as the value.
+* Converts the query results from my precipitation analysis (i.e. retrieve only the last 12 months of precipitation data) to a dictionary using date as the key and prcp as the value.
 * Returns the JSON representation of my dictionary.
     
 **Route 3:** /api/v1.0/stations
