@@ -3,7 +3,7 @@
 ## Background
 For this challenge, I decided to treat myself to a long holiday vacation in Honolulu, Hawaii. To help with my trip planning, I decided to do a climate analysis about the area. The following sections outline the steps that I need to take to accomplish this task.
 
-## Part 1: Analyze and Explore the Climate Data
+## Part 1: Analyzing and Exploring the Climate Data
 In this section, I used Python and SQLAlchemy to do a basic climate analysis and data exploration of my climate database. Specifically, I utilized SQLAlchemy Object Relational Mapper queries, Pandas, and Matplotlib. I used the provided hawaii.sqlite database to store the data and climate-analysis.ipynb to complete my climate analysis. Using these files, I completed the following steps:
 
 1. Used the SQLAlchemy create_engine() function to connect to your SQLite database.
