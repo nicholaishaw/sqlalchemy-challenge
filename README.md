@@ -59,33 +59,29 @@ I performed a station analysis by completing the steps:
 5. Closed my session.
 
 ## Part 2: Design Your Climate App
-Now that you’ve completed your initial analysis, you’ll design a Flask API based on the queries that you just developed. To do so, use Flask to create your routes as follows:
+After I completed my climate analysis in jupyter, I designed a Flask API based on the queries that I just developed above. To do so, I used Flask to create my routes as follows:
 
-/
+**Route 1:** /
 
-Start at the homepage.
+    * Start at the homepage.
+    * Lists all the available routes.
 
-List all the available routes.
+**Route 2:** /api/v1.0/precipitation
 
-/api/v1.0/precipitation
+    * Converts the query results from your precipitation analysis (i.e. retrieve only the last 12 months of data) to a dictionary using date as the key and prcp as the value.
+    * Returns the JSON representation of your dictionary.
 
-Convert the query results from your precipitation analysis (i.e. retrieve only the last 12 months of data) to a dictionary using date as the key and prcp as the value.
+**Route 3:** /api/v1.0/stations
 
-Return the JSON representation of your dictionary.
+    * Returns a JSON list of stations from the dataset.
+    
+**Route 4:** /api/v1.0/tobs
 
-/api/v1.0/stations
+    * Queries the dates and temperature observations of the most-active station for the previous year of data.
+    * Returns a JSON list of temperature observations for the previous year.
 
-Return a JSON list of stations from the dataset.
-/api/v1.0/tobs
+**Route 4:** /api/v1.0/<start> and /api/v1.0/<start>/<end>
 
-Query the dates and temperature observations of the most-active station for the previous year of data.
-
-Return a JSON list of temperature observations for the previous year.
-
-/api/v1.0/<start> and /api/v1.0/<start>/<end>
-
-Return a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified start or start-end range.
-
-For a specified start, calculate TMIN, TAVG, and TMAX for all the dates greater than or equal to the start date.
-
-For a specified start date and end date, calculate TMIN, TAVG, and TMAX for the dates from the start date to the end date, inclusive.
+    * Returns a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified start or start-end range.
+    * For a specified start, calculate TMIN, TAVG, and TMAX for all the dates greater than or equal to the start date.
+    * For a specified start date and end date, calculate TMIN, TAVG, and TMAX for the dates from the start date to the end date, inclusive.
