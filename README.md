@@ -62,26 +62,17 @@ I performed a station analysis by completing the steps:
 After I completed my climate analysis in jupyter, I designed a Flask API based on the queries that I just developed above. To do so, I used Flask to create my routes as follows:
 
 **Route 1:** /
-
     * Start at the homepage.
     * Lists all the available routes.
-
 **Route 2:** /api/v1.0/precipitation
-
     * Converts the query results from your precipitation analysis (i.e. retrieve only the last 12 months of data) to a dictionary using date as the key and prcp as the value.
     * Returns the JSON representation of your dictionary.
-
 **Route 3:** /api/v1.0/stations
-
     * Returns a JSON list of stations from the dataset.
-    
 **Route 4:** /api/v1.0/tobs
-
     * Queries the dates and temperature observations of the most-active station for the previous year of data.
     * Returns a JSON list of temperature observations for the previous year.
-
 **Route 4:** /api/v1.0/<start> and /api/v1.0/<start>/<end>
-
     * Returns a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified start or start-end range.
     * For a specified start, calculate TMIN, TAVG, and TMAX for all the dates greater than or equal to the start date.
     * For a specified start date and end date, calculate TMIN, TAVG, and TMAX for the dates from the start date to the end date, inclusive.
