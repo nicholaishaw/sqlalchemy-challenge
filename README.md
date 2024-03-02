@@ -61,10 +61,10 @@ I performed a station analysis by completing the steps:
 ## Part 2: Design Your Climate App
 After I completed my climate analysis in jupyter, I designed a Flask API based on the queries that I just developed above. To do so, I used Flask to create my routes as follows:
 
-**Route 1:** / /
+**Route 1:** /
+* Start at the homepage.
+* Lists all the available routes.
 
-    * Start at the homepage.
-    * Lists all the available routes.
 **Route 2:** /api/v1.0/precipitation
 
     * Converts the query results from your precipitation analysis (i.e. retrieve only the last 12 months of data) to a dictionary using date as the key and prcp as the value.
