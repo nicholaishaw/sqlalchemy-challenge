@@ -83,4 +83,4 @@ After I completed my climate analysis in jupyter, I designed a Flask API based o
 
 ![image](https://github.com/nicholaishaw/sqlalchemy-challenge/assets/135463220/40d9a078-04dc-4274-86f3-c3a8278c9754)
 
-**Figure 5.** *A sample route in the Flask app: minimum, maximum, and average temperature data greater than or equal to the date provided by the user or minimum, maximum, and average temperature data between the dates provided by the user, inclusive. Full Flask app is located in the 'app.py' file in this repository.*
+**Figure 5.** *A sample route in the Flask app: minimum, maximum, and average temperature data greater than or equal to the date provided by the user or minimum, maximum, and average temperature data between the dates provided by the user, inclusive. Full Flask app code is located in the 'app.py' file in this repository.*
