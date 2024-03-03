@@ -81,6 +81,6 @@ After I completed my climate analysis in jupyter, I designed a Flask API based o
 * For a specified start, the max, min, and average temperature will be calculated for all the dates greater than or equal to the start date.
 * For a specified start date and end date, the max, min, and average temperature will be calculated for the dates from the start date to the end date, inclusive.
 
-![image](https://github.com/nicholaishaw/sqlalchemy-challenge/assets/135463220/a8a54103-5628-47b7-aa1e-3285eb6ab494)
+![image](https://github.com/nicholaishaw/sqlalchemy-challenge/assets/135463220/40d9a078-04dc-4274-86f3-c3a8278c9754)
 
 **Figure 5.** *A sample route in the Flask app: Precipitation information for the past year of data in the database. Full Flask app code located in the app.py file in the repository.*
